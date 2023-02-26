@@ -1,0 +1,398 @@
+/* Reset CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+:root {
+    /* Color variables */
+    --main-blue: #0065fc;
+    --lite-blue: #deebff;
+    --lite-gray: #f2f2f2;
+    --main-black: #000;
+    --main-white: #fff;
+
+    /* FONT */
+    --main-font: "Raleway", sans-serif;
+
+    /* Font Style*/
+
+    /* Text color variables */
+    --color-primary: var(--main-black);
+    --color-secondary: var(--main-white);
+}
+
+/* HTML Settings */
+html {
+    scroll-behavior: smooth;
+}
+/* Body Settings */
+body {
+    font-family: var(--main-font);
+}
+
+/* Main Settings */
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    color: var(--main-black);
+    /* background-color: #eac4c47b; */
+}
+
+/* Setting Nav Menu */
+.nav__container {
+    min-width: 100%;
+    height: 100px;
+    background-color: var(--main-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__logo {
+    width: 100px;
+}
+.nav__list {
+    display: flex;
+    flex-direction: row;
+}
+.nav__item {
+    margin-right: 40px;
+}
+.nav__link {
+    font-size: 20px;
+    color: var(--main-black);
+    transition: all ease-in-out 200ms;
+}
+.nav__link:hover {
+    font-size: 20px;
+    color: var(--main-blue);
+    transition: all ease-in-out 200ms;
+}
+/* Settings last child */
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+/* Settings Section Hero container */
+#hero__container {
+    width: 100%;
+    height: 400px;
+}
+/* Settings Search form */
+.hero__form__container {
+    width: 500px;
+}
+.hero__form {
+    display: flex;
+}
+.hero__form span {
+    display: inline-block;
+    width: 80px;
+    height: 60px;
+    color: var(--main-black);
+    background-color: var(--lite-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+}
+.hero__form span i {
+    font-size: 20px;
+}
+.hero__form input {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+}
+.hero__form input[type="text"] {
+    width: 340px;
+    height: 60px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+}
+.hero__form input[type="submit"] {
+    position: relative;
+    border-radius: 0 20px 20px 0;
+    width: 150px;
+    height: 60px;
+    color: var(--main-white);
+    background-color: var(--main-blue);
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    cursor: pointer;
+}
+/* Setting BTN Filter */
+.hero__filter__container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hero__filter__container h2 {
+    font-size: 24px;
+}
+.hero__filter__link {
+    /* width: 300px; */
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--main-black);
+    border: 2px solid var(--lite-blue);
+    border-radius: 9999px;
+    transition: all ease-in-out 250ms;
+}
+.hero__filter__link:hover {
+    background-color: var(--lite-blue);
+    transition: all ease-in-out 250ms;
+}
+.hero__filter__link i {
+    font-size: 26px;
+    color: var(--main-blue);
+    margin-right: 20px;
+}
+
+/* Setting Section hebergement Container */
+#hebergement {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/* Setting Left Cards Container */
+.left__hebergement__container {
+    width: 1000px;
+    background-color: var(--lite-gray);
+    /* padding: 20px 20px 0 20px; */
+    border-radius: 30px;
+}
+/* Setting Left hebergement */
+.left__hebergement__title {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.left__cards__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+/* Setting Left Cards */
+.left__card__contents {
+    width: 280px;
+    height: auto;
+    background-color: #fff;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    transition: all 0.2s ease-out;
+    -webkit-box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.3);
+}
+.left__card__img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px 20px 0 0;
+}
+.left__card__content,
+.left__card__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+/* Setting title card */
+.left__card__title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+/* Setting price */
+.left__card__price {
+    font-size: 20px;
+    margin-top: 10px;
+}
+/* Setting span price */
+.left__card__price span {
+    font-weight: 700;
+}
+/* Setting stars */
+.left__card__stars {
+    margin-top: 10px;
+}
+.left__card__stars .fa-star {
+    color: #0065fc;
+}
+/* Setting last stars */
+.left__card__stars .fa-star:last-child {
+    color: var(--lite-gray);
+}
+
+/* Setting link view more */
+.view__more {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+/*** Setting Right Cards ***/
+.right__cards__container {
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+    background-color: var(--lite-gray);
+    border-radius: 30px;
+    gap: 40px;
+}
+/* Setting Right hebergement title */
+.right__hebergement__title {
+    width: 100%;
+    color: var(--main-black);
+    margin-top: 50px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.right__hebergement__title i {
+    font-size: 30px;
+    color: var(--main-blue);
+}
+/* Setting Right Cards */
+.right__card__contents {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-out;
+}
+/* Setting Img*/
+.right__card__img {
+    width: 150px;
+    height: 150px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px 0 0 20px;
+}
+/* Setting card contain description */
+.right__card__contain__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+/* Setting title card */
+.right__card__title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+/* Setting price */
+.right__card__price {
+    font-size: 20px;
+    margin-top: 10px;
+}
+/* Setting span price */
+.right__card__price span {
+    font-weight: 700;
+}
+/* Setting stars */
+.right__card__stars {
+    margin-top: 10px;
+}
+.right__card__stars .fa-star {
+    color: #0065fc;
+}
+/* Setting last stars */
+.right__card__stars .fa-star:last-child {
+    color: var(--lite-gray);
+}
+/* Setting Section Activities*/
+#activities {
+    width: 100%;
+    min-height: 600px;
+}
+.activities__title {
+    margin: 50px 0 30px 30px;
+}
+.activities__cards__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.activities__card__contents {
+    width: 320px;
+    height: 500px;
+    /* border: 1px solid black; */
+    margin: 0 auto 20px auto;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.71);
+    box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.2);
+}
+.activities__card__img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+}
+.activities__card__description {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin: 20px 0 0 20px;
+}
+
+/* Setting Footer*/
+.footer {
+    width: 100%;
+    min-height: 200px;
+    /* height: auto; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: var(--lite-gray);
+}
+.footer h3 {
+    margin: 10px 0;
+}
+.footer li {
+    margin: 10px 0;
+}
+.footer li a {
+    font-size: 18px;
+    color: var(--main-black);
+}
+.col-1{
+    width: 300px;
+    height: 150px;
+
+}

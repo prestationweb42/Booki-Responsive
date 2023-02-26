@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- CSS LOCAL -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- CDN FONT AWESOME -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- POLICE GOOGLE FONT -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Booki - Trouver votre hébergement de rêve</title>
+    </head>
+    <body>
+        <main>
+            <!-- Navbar -->
+            <nav class="nav__container">
+                <a href="#"
+                    ><img
+                        src="images/logo/Booki.png"
+                        class="nav__logo"
+                        alt="logo booki"
+                /></a>
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#hebergement" class="nav__link"
+                                >Hébergements</a
+                            >
+                        </li>
+                        <li class="nav__item">
+                            <a href="#activities" class="nav__link"
+                                >Activités</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Section Hero -->
+            <section id="hero__container">
+                <h1 class="hero__title">
+                    Trouvez votre hébergement pour des vacances de rêve
+                </h1>
+                <p class="hero__text">
+                    En plein centre ville ou en pleine nature
+                </p>
+                <!-- Formulaire de Recherche -->
+                <div class="hero__form__container">
+                    <form class="hero__form">
+                        <span><i class="fa-solid fa-location-dot"></i></span>
+                        <input
+                            type="text"
+                            name="hero__search"
+                            id="hero__search"
+                            placeholder="Marseille, France"
+                        />
+                        <input type="submit" value="Recherchez" />
+                    </form>
+                </div>
+                <!-- Section Filter -->
+                <article class="hero__filter__container">
+                    <h2>Filtres</h2>
+
+                    <a href="#" class="hero__filter__link hero-link-1"
+                        ><i class="fas fa-money-bill-wave"></i>
+                        <span>Prestations</span>
+                    </a>
+                    <a href="#" class="hero__filter__link hero-link-2 ms-3"
+                        ><i class="fas fa-child"></i><span>Familial</span>
+                    </a>
+                    <a href="#" class="hero__filter__link hero-link-2 ms-3"
+                        ><i class="fas fa-heart"></i><span>Romantique</span>
+                    </a>
+                    <a href="#" class="hero__filter__link hero-link-2 ms-3"
+                        ><i class="fas fa-dog"></i
+                        ><span>Animaux Autorisés</span>
+                    </a>
+                </article>
+                <div class="to do afaire">
+                    <i class="fas fa-info" aria-hidden="true"></i>
+                    <p>
+                        Plus de 500 logements sont disponibles dans cette ville
+                    </p>
+                </div>
+            </section>
+            <!-- Section Cards Hébergements -->
+            <section id="hebergement">
+                <!-- Article Gauche -->
+                <article class="left__hebergement__container">
+                    <div class="left__hebergement__title">
+                        <h2>Hébergement à Marseille</h2>
+                    </div>
+                    <div class="left__cards__container">
+                        <!-- card-1 -->
+                        <div class="left__card__contents">
+                            <img
+                                class="left__card__img"
+                                src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                alt="photo de john"
+                            />
+                            <div class="left__card__content">
+                                <div class="left__card__description">
+                                    <p class="left__card__title">
+                                        Auberge de Canebière
+                                    </p>
+                                    <p class="left__card__price">
+                                        Nuit à <span>25</span> €
+                                    </p>
+                                </div>
+                                <div class="left__card__stars">
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card-2 -->
+                        <div class="left__card__contents">
+                            <img
+                                class="left__card__img"
+                                src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                                alt="photo de john"
+                            />
+                            <div class="left__card__content">
+                                <div class="left__card__description">
+                                    <p class="left__card__title">
+                                        Hôtel du port
+                                    </p>
+                                    <p class="left__card__price">
+                                        Nuit à <span>52</span> €
+                                    </p>
+                                </div>
+                                <div class="left__card__stars">
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card-3 -->
+                        <div class="left__card__contents">
+                            <img
+                                class="left__card__img"
+                                src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                                alt="photo de john"
+                            />
+                            <div class="left__card__content">
+                                <div class="left__card__description">
+                                    <p class="left__card__title">
+                                        Hôtel Les Mouettes
+                                    </p>
+                                    <p class="left__card__price">
+                                        Nuit à <span>76</span> €
+                                    </p>
+                                </div>
+                                <div class="left__card__stars">
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card-4 -->
+                        <div class="left__card__contents">
+                            <img
+                                class="left__card__img"
+                                src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                                alt="photo de john"
+                            />
+                            <div class="left__card__content">
+                                <div class="left__card__description">
+                                    <p class="left__card__title">
+                                        Auberge de le mer
+                                    </p>
+                                    <p class="left__card__price">
+                                        Nuit à <span>46</span> €
+                                    </p>
+                                </div>
+                                <div class="left__card__stars">
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card-5 -->
+                        <div class="left__card__contents">
+                            <img
+                                class="left__card__img"
+                                src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                                alt="photo de john"
+                            />
+                            <div class="left__card__content">
+                                <div class="left__card__description">
+                                    <p class="left__card__title">
+                                        Auberge Le panier
+                                    </p>
+                                    <p class="left__card__price">
+                                        Nuit à <span>23</span> €
+                                    </p>
+                                </div>
+                                <div class="left__card__stars">
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card-6 -->
+                        <div class="left__card__contents">
+                            <img
+                                class="left__card__img"
+                                src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                                alt="photo de john"
+                            />
+                            <div class="left__card__content">
+                                <div class="left__card__description">
+                                    <p class="left__card__title">
+                                        Hôtel chez Amina
+                                    </p>
+                                    <p class="left__card__price">
+                                        Nuit à <span>96</span> €
+                                    </p>
+                                </div>
+                                <div class="left__card__stars">
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <i
+                                        class="fas fa-star"
+                                        data-active="true"
+                                        aria-hidden="true"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view__more">
+                        <a href="#"><h3>Afficher plus</h3></a>
+                    </div>
+                </article>
+                <!-- Article Droit -->
+                <article class="right__cards__container">
+                    <div class="right__hebergement__title">
+                        <h2>Les plus populaires</h2>
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <!-- card-1 -->
+                    <div class="right__card__contents">
+                        <div class="right__card__content__img">
+                            <img
+                                class="right__card__img"
+                                src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                alt="photo de john"
+                            />
+                        </div>
+                        <div class="right__card__contain__description">
+                            <div class="right__card__description">
+                                <p class="right__card__title">
+                                    Auberge de Canebière
+                                </p>
+                                <p class="right__card__price">
+                                    Nuit à <span>25</span> €
+                                </p>
+                            </div>
+                            <div class="right__card__stars">
+                                <i
+                                    class="fas fa-star"
+                                    data-active="true"
+                                    aria-hidden="true"
+                                ></i>
+                                <i
+                                    class="fas fa-star"
+                                    data-active="true"
+                                    aria-hidden="true"
+                                ></i>
+                                <i
+                                    class="fas fa-star"
+                                    data-active="true"
+                                    aria-hidden="true"
+                                ></i>
+                                <i
+                                    class="fas fa-star"
+                                    data-active="true"
+                                    aria-hidden="true"
+                                ></i>
+                                <i
+                                    class="fas fa-star"
+                                    data-active="true"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card-2 -->
+                    <div class="right__card__contents">
+                        <div class="right__card__content__img">
+                            <img
+                                class="right__card__img"
+                                src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                alt="photo de john"
+                            />
+                        </div>
+                        <div class="right__card__contain__description">
+                            <div class="right__card__description">
+                                <p class="right__card__title">
+                                    Auberge de Canebière
+                                </p>
+                                <p class="right__card__price">
+                                    Nuit à <span>25</span> €
+                                </p>
+                            </div>
+                            <div class="right__card__stars">
+                                <i
+                                    class="fas fa-star"
+                                    data-active="true"
+                                    aria-hidden="true"
+                                ></i>
+                                <i
+                                    class="fas fa-star"
+                                    data-active="true"
+                                    aria-hidden="true"
+                                ></i>
+                                <i
+                                    class="fas fa-star"
+                                    data-active="true"
+                                    aria-hidden="true"
+                                ></i>
+                                <i
+                                    class="fas fa-star"
+                                    data-active="true"
+                                    aria-hidden="true"
+                                ></i>
+                                <i
+                                    class="fas fa-star"
+                                    data-active="true"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card-3 -->
+                    <div class="right__card__contents">
+                        <div class="right__card__content__img">
+                            <img
+                                class="right__card__img"
+                                src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                alt="photo de john"
+                            />
+                        </div>
+                        <div class="right__card__contain__description">
+                            <div class="right__card__description">
+                                <p class="right__card__title">
+                                    Auberge de Canebière
+                                </p>
+                                <p class="right__card__price">
+                                    Nuit à <span>25</span> €
+                                </p>
+                            </div>
+                            <div class="right__card__stars">
+                                <i
+                                    class="fas fa-star"
+                                    data-active="true"
+                                    aria-hidden="true"
+                                ></i>
+                                <i
+                                    class="fas fa-star"
+                                    data-active="true"
+                                    aria-hidden="true"
+                                ></i>
+                                <i
+                                    class="fas fa-star"
+                                    data-active="true"
+                                    aria-hidden="true"
+                                ></i>
+                                <i
+                                    class="fas fa-star"
+                                    data-active="true"
+                                    aria-hidden="true"
+                                ></i>
+                                <i
+                                    class="fas fa-star"
+                                    data-active="true"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <!-- Section Cards Activities -->
+            <section id="activities">
+                <div class="activities__title">
+                    <h2>Activités à Marseille</h2>
+                </div>
+                <article class="activities__cards__container">
+                    <!-- card-1 -->
+                    <div class="activities__card__contents">
+                        <img
+                            class="activities__card__img"
+                            src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                            alt="photo du vieux port de Marseille"
+                        />
+                        <div class="activities__card__description">
+                            <p>Vieux-Port</p>
+                        </div>
+                    </div>
+                    <!-- card-2 -->
+                    <div class="activities__card__contents">
+                        <img
+                            class="activities__card__img"
+                            src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                            alt="photo du fort de Pomègues"
+                        />
+                        <div class="activities__card__description">
+                            <p>Vieux-Port</p>
+                        </div>
+                    </div>
+                    <!-- card-3 -->
+                    <div class="activities__card__contents">
+                        <img
+                            class="activities__card__img"
+                            src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                            alt="photo parc national des calaques"
+                        />
+                        <div class="activities__card__description">
+                            <p>Vieux-Port</p>
+                        </div>
+                    </div>
+                    <!-- card-4 -->
+                    <div class="activities__card__contents">
+                        <img
+                            class="activities__card__img"
+                            src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                            alt="photo de notre dame de la garde"
+                        />
+                        <div class="activities__card__description">
+                            <p>Vieux-Port</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="col-1">
+                    <h3>A propos</h3>
+                    <ul>
+                        <li><a href="#">Fonctionnement du site</a></li>
+                        <li><a href="#">Conditions Générales</a></li>
+                        <li><a href="#">Données et Confidentialité</a></li>
+                    </ul>
+                </div>
+                <div class="col-1">
+                    <h3>Nos hébergements</h3>
+                    <ul>
+                        <li><a href="#">Charte de qualité</a></li>
+                        <li><a href="#">Proposer votre hôtel</a></li>
+                    </ul>
+                </div>
+                <div class="col-1">
+                    <h3>Assistance</h3>
+                    <ul>
+                        <li><a href="#">Centre d'aide</a></li>
+                        <li><a href="#">Nous contacter</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+    </body>
+</html>
