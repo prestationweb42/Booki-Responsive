@@ -289,7 +289,7 @@ main {
     justify-content: center;
     align-items: center;
     margin: 0 auto 0 auto;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
     background-color: var(--lite-gray);
     border-radius: 30px;
     gap: 40px;
