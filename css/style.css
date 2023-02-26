@@ -158,6 +158,35 @@ main {
     margin-right: 20px;
 }
 
+/* Setting Disponibilty  */
+.hero__disponibilty__container {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.hero__disponibilty__icone{
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    color: var(--main-blue);
+    border: 1px solid var(--lite-gray);
+    border-radius: 9999px;
+    position: relative;
+}
+.hero__disponibilty__icone i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+}
+.hero__disponibilty__container p {
+    font-size: 18px;
+    color: var(--main-black);
+    margin-left: 10px;
+}
+
 /* Setting Section hebergement Container */
 #hebergement {
     width: 100%;
@@ -167,13 +196,11 @@ main {
     flex-wrap: wrap;
     gap: 20px;
 }
-/* Setting Left Cards Container */
 .left__hebergement__container {
     width: 1000px;
     background-color: var(--lite-gray);
     border-radius: 30px;
 }
-/* Setting Left hebergement */
 .left__hebergement__title {
     margin-top: 50px;
     margin-left: 50px;
@@ -186,7 +213,6 @@ main {
     gap: 20px;
     padding: 20px;
 }
-/* Setting Left Cards */
 .left__card__contents {
     width: 280px;
     height: auto;
@@ -211,22 +237,18 @@ main {
     justify-content: space-between;
     align-items: start;
 }
-/* Setting title card */
 .left__card__title {
     font-size: 22px;
     font-weight: 700;
     margin-top: 10px;
 }
-/* Setting price */
 .left__card__price {
     font-size: 20px;
     margin-top: 10px;
 }
-/* Setting span price */
 .left__card__price span {
     font-weight: 700;
 }
-/* Setting stars */
 .left__card__stars {
     margin-top: 10px;
 }
@@ -381,8 +403,7 @@ main {
     font-size: 18px;
     color: var(--main-black);
 }
-.col-1{
+.col-1 {
     width: 300px;
     height: 150px;
-
 }
