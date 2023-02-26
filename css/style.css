@@ -267,6 +267,9 @@ main {
     margin-top: 20px;
     margin-left: 50px;
 }
+.view__more h3 {
+    color: var(--main-black);
+}
 
 /*** Setting Right Cards ***/
 .right__cards__container {
