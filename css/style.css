@@ -77,14 +77,14 @@ main {
     max-width: 100%;
     min-height: 320px;
 }
-.hero__title{
+.hero__title {
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
     color: var(--main-black);
     margin: 50px 0 20px 0;
 }
-.hero__text{
+.hero__text {
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
@@ -238,9 +238,9 @@ main {
     width: 246px;
     height: 200px;
     background-color: var(--main-white);
-    padding: 8px;
+    padding: 5px;
     color: var(--main-black);
-    border-radius: 30px;
+    border-radius: 24px;
     transition: all 0.2s ease-out;
     box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.3);
 }
@@ -296,49 +296,47 @@ main {
 
 /*** Setting Right Cards ***/
 .right__cards__container {
-    max-width: 440px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    min-width: 440px;
     margin: 0 auto 0 auto;
     padding: 0 20px 20px 20px;
     background-color: var(--lite-gray);
-    border-radius: 30px;
+    border-radius: 20px;
     gap: 40px;
 }
 /* Setting Right hebergement title */
 .right__hebergement__title {
-    width: 100%;
-    color: var(--main-black);
-    margin-top: 50px;
-    margin-left: 0;
+    width: 350px;
+    margin: 50px auto 25px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+.right__hebergement__title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--main-black);
+}
 .right__hebergement__title i {
-    font-size: 30px;
+    font-size: 20px;
     color: var(--main-blue);
 }
 /* Setting Right Cards */
 .right__card__contents {
     display: flex;
-    width: 100%;
-    height: auto;
+    width: 350px;
+    height: 150px;
     background-color: #fff;
-    padding: 8px;
+    margin: 0 auto 20px auto;
+    padding: 5px;
     color: rgb(0, 0, 0);
-    border-radius: 30px;
+    border-radius: 24px;
     box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.3);
-    transition: all 0.2s ease-out;
 }
 /* Setting Img*/
 .right__card__img {
-    width: 150px;
-    height: 150px;
-    height: 200px;
+    width: 130px;
+    height: 140px;
     object-fit: cover;
     object-position: center;
     border-radius: 20px 0 0 20px;
@@ -348,17 +346,18 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 /* Setting title card */
 .right__card__title {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 700;
-    margin-top: 10px;
+    color: var(--main-black);
+    /* margin-top: 10px; */
 }
 /* Setting price */
 .right__card__price {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
 }
 /* Setting span price */
@@ -370,6 +369,7 @@ main {
     margin-top: 10px;
 }
 .right__card__stars .fa-star {
+    font-size: 14px;
     color: var(--main-blue);
 }
 /* Setting last stars */
