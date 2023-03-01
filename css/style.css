@@ -48,28 +48,29 @@ main {
     align-items: center;
 }
 .nav__logo {
-    width: 100px;
+    width: 60px;
+    height: auto;
 }
 .nav__list {
     display: flex;
     flex-direction: row;
 }
 .nav__item {
-    margin-right: 40px;
+    margin-right: 50px;
 }
 .nav__link {
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 500;
     color: var(--main-black);
     transition: all ease-in-out 200ms;
 }
 .nav__link:hover {
-    font-size: 20px;
     color: var(--main-blue);
     transition: all ease-in-out 200ms;
 }
 /* Settings last child */
 .nav__item:last-child {
-    margin-right: 0;
+    margin-right: 20;
 }
 
 /* Settings Section Hero container */
