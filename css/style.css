@@ -248,6 +248,7 @@ main {
     border-radius: 24px;
     transition: all 0.2s ease-out;
     box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 .hosting__card__img {
     width: 100%;
@@ -339,6 +340,7 @@ main {
     color: rgb(0, 0, 0);
     border-radius: 24px;
     box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 /* Setting Img*/
 .mostPopular__card__img {
@@ -409,6 +411,7 @@ main {
     margin: 0 auto 20px auto;
     border-radius: 20px;
     box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 .activities__card__img {
     width: 100%;
