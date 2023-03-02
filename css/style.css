@@ -290,7 +290,6 @@ main {
 .hosting__card__stars .fa-star:last-child {
     color: var(--lite-gray);
 }
-
 /* Setting link view more */
 .hosting__view__more {
     margin-top: 20px;
@@ -302,8 +301,8 @@ main {
     color: var(--main-black);
 }
 
-/*** Setting Right Cards ***/
-.right__cards__container {
+/*** Setting Most Popular Cards ***/
+.mostPopular__container {
     min-width: 440px;
     margin: 0 auto 0 auto;
     padding: 0 20px 20px 20px;
@@ -311,8 +310,8 @@ main {
     border-radius: 20px;
     gap: 40px;
 }
-/* Setting Right hebergement title */
-.right__hebergement__title {
+/* Setting Most Popular title */
+.mostPopular__title {
     width: 350px;
     margin: 50px auto 25px auto;
     display: flex;
@@ -320,17 +319,17 @@ main {
     justify-content: space-between;
     align-items: center;
 }
-.right__hebergement__title h2 {
+.mostPopular__title h2 {
     font-size: 22px;
     font-weight: 700;
     color: var(--main-black);
 }
-.right__hebergement__title i {
+.mostPopular__title i {
     font-size: 20px;
     color: var(--main-blue);
 }
-/* Setting Right Cards */
-.right__card__contents {
+/* Setting Most Popular Cards */
+.mostPopular__card__contents {
     display: flex;
     width: 350px;
     height: 150px;
@@ -342,7 +341,7 @@ main {
     box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.3);
 }
 /* Setting Img*/
-.right__card__img {
+.mostPopular__card__img {
     width: 130px;
     height: 140px;
     object-fit: cover;
@@ -350,38 +349,39 @@ main {
     border-radius: 20px 0 0 20px;
 }
 /* Setting card contain description */
-.right__card__contain__description {
+.mostPopular__card__description,
+.mostPopular__card__text {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin-left: 10px;
 }
 /* Setting title card */
-.right__card__title {
+.mostPopular__card__title {
     font-size: 16px;
     font-weight: 700;
     color: var(--main-black);
-    /* margin-top: 10px; */
 }
 /* Setting price */
-.right__card__price {
+.mostPopular__card__price {
     font-size: 15px;
     margin-top: 10px;
 }
 /* Setting span price */
-.right__card__price span {
+.mostPopular__card__price span {
     font-weight: 700;
 }
 /* Setting stars */
-.right__card__stars {
+.mostPopular__card__stars {
     margin-top: 10px;
+    margin-left: 10px;
 }
-.right__card__stars .fa-star {
+.mostPopular__card__stars .fa-star {
     font-size: 14px;
     color: var(--main-blue);
 }
 /* Setting last stars */
-.right__card__stars .fa-star:last-child {
+.mostPopular__card__stars .fa-star:last-child {
     color: var(--lite-gray);
 }
 /* Setting Section Activities*/
