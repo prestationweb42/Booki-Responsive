@@ -209,8 +209,8 @@ main {
     margin-left: 11px;
 }
 
-/* Setting Section hebergement Container */
-#hebergement {
+/* Setting Section Hosting Container */
+#hosting {
     width: 100%;
     min-height: 500px;
     display: flex;
@@ -218,20 +218,20 @@ main {
     flex-wrap: wrap;
     gap: 20px;
 }
-.left__hebergement__container {
+.hosting__container {
     width: 900px;
     background-color: var(--lite-gray);
     border-radius: 30px;
 }
-.left__hebergement__title {
+.hosting__title {
     margin-top: 50px;
     margin-left: 50px;
 }
-.left__hebergement__title h2 {
+.hosting__title h2 {
     font-size: 22px;
     font-weight: 700;
 }
-.left__cards__container {
+.hosting__cards__container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -239,7 +239,7 @@ main {
     gap: 20px;
     padding: 20px;
 }
-.left__card__contents {
+.hosting__card__contents {
     width: 246px;
     height: 200px;
     background-color: var(--main-white);
@@ -249,54 +249,54 @@ main {
     transition: all 0.2s ease-out;
     box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.3);
 }
-.left__card__img {
+.hosting__card__img {
     width: 100%;
     height: 100px;
     object-fit: cover;
     object-position: center;
     border-radius: 20px 20px 0 0;
 }
-.left__card__content,
-.left__card__description {
+.hosting__card__descriptions,
+.hosting__card__text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
 }
-.left__card__title {
+.hosting__card__title {
     font-size: 16px;
     font-weight: 700;
     margin-top: 10px;
     margin-left: 16px;
 }
-.left__card__price {
+.hosting__card__price {
     font-size: 15px;
     font-weight: 500;
     margin-top: 5px;
     margin-left: 16px;
 }
-.left__card__price span {
+.hosting__card__price span {
     font-weight: 700;
 }
-.left__card__stars {
+.hosting__card__stars {
     margin-top: 5px;
     margin-left: 16px;
 }
-.left__card__stars .fa-star {
+.hosting__card__stars .fa-star {
     font-size: 14px;
     color: var(--main-blue);
 }
 /* Setting last stars */
-.left__card__stars .fa-star:last-child {
+.hosting__card__stars .fa-star:last-child {
     color: var(--lite-gray);
 }
 
 /* Setting link view more */
-.view__more {
+.hosting__view__more {
     margin-top: 20px;
     margin-left: 50px;
 }
-.view__more h3 {
+.hosting__view__more h3 {
     font-size: 18px;
     font-weight: 700;
     color: var(--main-black);
