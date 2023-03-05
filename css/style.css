@@ -230,7 +230,7 @@ main {
 .hosting__container {
     width: 900px;
     background-color: var(--lite-gray);
-    border-radius: 30px;
+    border-radius: 20px;
 }
 .hosting__title {
     margin-top: 50px;
