@@ -260,7 +260,7 @@ main {
     color: var(--main-black);
     border-radius: 24px;
     transition: all 0.2s ease-out;
-    box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
 }
 .hosting__card__img {
     width: 100%;
@@ -350,8 +350,7 @@ main {
     padding: 5px;
     color: rgb(0, 0, 0);
     border-radius: 24px;
-    box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.3);
-    /* cursor: pointer; */
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
 }
 /* Setting Img*/
 .mostPopular__card__img {
@@ -421,7 +420,7 @@ main {
     height: 450px;
     margin: 0 auto 20px auto;
     border-radius: 20px;
-    box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
 }
 .activities__card__img {
     width: 100%;
