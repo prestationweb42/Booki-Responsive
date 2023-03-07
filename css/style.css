@@ -435,6 +435,7 @@ main {
 .activities__card__description p {
     font-size: 16px;
     font-weight: 700;
+    color: var(--main-black);
 }
 
 /* Setting Footer*/
