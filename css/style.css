@@ -78,12 +78,6 @@ main {
     color: var(--main-blue);
     transition: all ease-in-out 200ms;
 }
-@media screen and (max-width: 700px) {
-    .header__nav__link:hover {
-        text-decoration-line: underline;
-        text-underline-offset: 5px;
-    }
-}
 /* Settings Section Hero container */
 #hero__container {
     max-width: 100%;
