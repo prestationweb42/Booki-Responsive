@@ -1,4 +1,9 @@
 @media screen and (max-width: 1024px) {
+    .header {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
     .hosting__container {
         max-width: 90%;
     }
@@ -74,7 +79,6 @@
     .header__logo {
         width: 71px;
         height: auto;
-        padding-left: 20px;
     }
     .header__nav__item {
         margin-right: 20px;
@@ -88,7 +92,7 @@
         width: 100%;
     }
     .hero__form {
-        width: 75%;
+        width: 80%;
         display: flex;
         margin: 0 auto 0 auto;
     }
@@ -100,14 +104,14 @@
         font-size: 18px;
     }
     .hero__form input[type="text"] {
-        max-width: 150px;
+        width: 150px;
         height: 50px;
         font-size: 15px;
         outline: none;
         padding: 0 10px;
     }
     .hero__form input[type="submit"] {
-        max-width: 100px;
+        width: 120px;
         height: 50px;
         font-size: 15px;
         padding: 0 5px;
@@ -164,9 +168,12 @@
         align-items: center;
     }
 }
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 320px) {
     .header__nav__item {
         margin-right: 10px;
+    }
+    .header__nav__link {
+        font-size: 15px;
     }
     .hero__title {
         font-size: 20px;
@@ -186,19 +193,19 @@
         height: 50px;
     }
     .hero__form span i {
-        font-size: 16px;
+        font-size: 15px;
     }
     .hero__form input[type="text"] {
-        width: 135px;
+        width: 130px;
         height: 50px;
-        font-size: 15px;
+        font-size: 14px;
         outline: none;
         padding: 0 10px;
     }
     .hero__form input[type="submit"] {
         width: 100px;
         height: 50px;
-        font-size: 15px;
+        font-size: 14px;
         padding: 0 5px;
     }
     .hero__filter__container {
