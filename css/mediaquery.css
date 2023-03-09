@@ -122,9 +122,9 @@
         text-align: center;
     }
     .hosting__container {
-    max-width: 100%;
-    margin: 0 auto 0 auto;
-}
+        max-width: 100%;
+        margin: 0 auto 0 auto;
+    }
     .mostPopular__container {
         width: 100%;
         padding: 0;
