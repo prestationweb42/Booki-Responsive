@@ -70,7 +70,7 @@
         align-items: center;
         gap: 10px;
     }
-    .col-1 {
+    .footer__col {
         width: 200px;
         min-height: 50px;
     }
