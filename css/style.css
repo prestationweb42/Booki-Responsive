@@ -359,7 +359,7 @@ main {
 .mostPopular__card__text {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-left: 10px;
 }
 /* Setting title card */
