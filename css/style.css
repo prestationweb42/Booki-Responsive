@@ -290,12 +290,15 @@ main {
     margin-left: 16px;
 }
 .hosting__card__stars .fa-star {
-    font-size: 14px;
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
     color: var(--main-blue);
 }
 /* Setting last stars */
 .hosting__card__stars .fa-star:last-child {
     color: var(--lite-gray);
+    margin-right: 0;
 }
 /* Setting link view more */
 .hosting__view__more {
@@ -383,12 +386,16 @@ main {
     margin-left: 10px;
 }
 .mostPopular__card__stars .fa-star {
-    font-size: 14px;
+    /* font-size: 14px; */
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
     color: var(--main-blue);
 }
 /* Setting last stars */
 .mostPopular__card__stars .fa-star:last-child {
     color: var(--lite-gray);
+    margin-right: 0;
 }
 /*** Setting Section Activities ***/
 #activities {
