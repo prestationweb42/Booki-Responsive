@@ -51,7 +51,7 @@ main {
 .header__logo {
     width: 71px;
     height: auto;
-    padding-left: 10px;
+    margin-left: 10px;
 }
 
 /* Setting Nav Menu */

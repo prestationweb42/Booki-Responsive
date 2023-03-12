@@ -4,6 +4,15 @@
         justify-content: space-evenly;
         align-items: center;
     }
+    .header__logo {
+        margin-left: 0;
+    }
+    .header__nav__item {
+        margin-right: 30px;
+    }
+    .header__nav__item:last-child {
+        margin-right: 0;
+    }
     .hosting__container {
         max-width: 90%;
     }
