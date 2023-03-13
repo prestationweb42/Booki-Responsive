@@ -67,6 +67,9 @@ main {
 .header__nav__item {
     margin-right: 50px;
 }
+.header__nav__item:last-child {
+    margin-right: 20px;
+}
 .header__nav__link {
     font-size: 16px;
     font-weight: 500;
@@ -477,4 +480,25 @@ main {
     font-size: 16px;
     font-weight: 400;
     color: var(--main-black);
+}
+/* Media query 996px */
+@media screen and (max-width: 996px) {
+    .hosting__container {
+        max-width: 95%;
+    }
+    #activities {
+        width: 70%;
+        margin: 0 auto 20px auto;
+    }
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .footer__col {
+        width: 200px;
+        min-height: 50px;
+    }
 }
