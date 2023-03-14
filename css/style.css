@@ -28,19 +28,16 @@
 html {
     scroll-behavior: smooth;
 }
-/* Body Settings */
-body {
-    font-family: var(--main-font);
-}
 
 /* Main Settings */
-main {
+.main__container {
     max-width: 1400px;
-    margin: 0 auto;
+    font-family: var(--main-font);
     color: var(--main-black);
+    margin: 0 auto;
 }
 /* Setting Header */
-.header {
+.header__container {
     min-width: 100%;
     height: 110px;
     background-color: var(--main-white);
@@ -123,6 +120,7 @@ main {
 }
 .hero__form {
     display: flex;
+    font-family: var(--main-font);
 }
 .hero__form span {
     display: inline-block;
@@ -146,6 +144,7 @@ main {
     width: 250px;
     height: 55px;
     font-size: 18px;
+    font-family: 'Raleway', sans-serif;
     border: none;
     border-top: 1px solid var(--lite-gray);
     border-bottom: 1px solid var(--lite-gray);
@@ -165,6 +164,7 @@ main {
     border: none;
     outline: none;
     cursor: pointer;
+    font-family: 'Raleway', sans-serif;
 }
 /* Setting BTN Filter */
 .hero__filter__container {
@@ -459,7 +459,7 @@ main {
 }
 
 /*** Setting Footer ***/
-.footer {
+.footer__container {
     width: 100%;
     min-height: 200px;
     display: flex;
