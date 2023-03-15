@@ -235,7 +235,7 @@ html {
 }
 
 /* Setting Section Hosting Container */
-#hosting {
+#hosting__container {
     width: 100%;
     min-height: 500px;
     display: flex;
