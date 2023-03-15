@@ -330,7 +330,7 @@ html {
 }
 
 /*** Setting Most Popular Cards ***/
-.mostPopular__container {
+.mostPopular__contents {
     min-width: 30%;
     margin: 0 auto 0 auto;
     padding: 0 20px 20px 20px;
