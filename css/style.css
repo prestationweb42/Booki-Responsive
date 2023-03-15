@@ -417,7 +417,7 @@ html {
     margin-right: 0;
 }
 /*** Setting Section Activities ***/
-#activities {
+#activities__container {
     width: 100%;
     min-height: 550px;
 }
@@ -489,7 +489,7 @@ html {
     .hosting__contents {
         max-width: 75%;
     }
-    #activities {
+    #activities__container {
         width: 60%;
         margin: 0 auto 20px auto;
     }
@@ -498,7 +498,7 @@ html {
     .hosting__contents {
         max-width: 85%;
     }
-    #activities {
+    #activities__container {
         width: 70%;
         margin: 0 auto 20px auto;
     }
