@@ -29,14 +29,15 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Main Settings */
+/*** Main Settings ***/
 .main__container {
     max-width: 1400px;
     font-family: var(--main-font);
     color: var(--main-black);
     margin: 0 auto;
 }
-/* Setting Header */
+
+/*** Setting Header ***/
 .header__container {
     min-width: 100%;
     height: 110px;
@@ -50,7 +51,6 @@ html {
     height: auto;
     margin-left: 10px;
 }
-
 /* Setting Nav Menu */
 .header__nav__bar {
     width: auto;
@@ -94,7 +94,7 @@ html {
     transform: scaleX(1);
 }
 
-/** Settings Section Hero container **/
+/*** Settings Section Hero container ***/
 #hero__container {
     max-width: 100%;
     padding: 0 10px;
@@ -234,7 +234,7 @@ html {
     margin-left: 11px;
 }
 
-/* Setting Section Hosting Container */
+/*** Setting Section Hosting Container ***/
 #hosting__container {
     width: 100%;
     min-height: 500px;
