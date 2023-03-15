@@ -144,7 +144,7 @@ html {
     width: 250px;
     height: 55px;
     font-size: 18px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     border: none;
     border-top: 1px solid var(--lite-gray);
     border-bottom: 1px solid var(--lite-gray);
@@ -164,7 +164,7 @@ html {
     border: none;
     outline: none;
     cursor: pointer;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 /* Setting BTN Filter */
 .hero__filter__container {
@@ -243,7 +243,7 @@ html {
     flex-wrap: wrap;
     gap: 20px;
 }
-.hosting__container {
+.hosting__contents {
     max-width: 65%;
     margin: 0 auto 0 auto;
     background-color: var(--lite-gray);
@@ -486,7 +486,7 @@ html {
 }
 /* Media query limit 996px */
 @media screen and (max-width: 1300px) {
-    .hosting__container {
+    .hosting__contents {
         max-width: 75%;
     }
     #activities {
@@ -495,7 +495,7 @@ html {
     }
 }
 @media screen and (max-width: 1200px) {
-    .hosting__container {
+    .hosting__contents {
         max-width: 85%;
     }
     #activities {
@@ -508,12 +508,12 @@ html {
     }
 }
 @media screen and (max-width: 1100px) {
-    .hosting__container {
+    .hosting__contents {
         max-width: 90%;
     }
 }
 @media screen and (max-width: 992px) {
-    .hosting__container {
+    .hosting__contents {
         max-width: 95%;
     }
     .footer {
