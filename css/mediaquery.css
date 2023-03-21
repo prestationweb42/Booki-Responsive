@@ -89,7 +89,7 @@
     .mostPopular__contents {
         width: auto;
     }
-    #activities {
+    #activities__container {
         width: 90%;
         margin: 0 auto 20px auto;
     }
