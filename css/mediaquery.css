@@ -16,14 +16,14 @@
     .header__nav__item:last-child {
         margin-right: 0;
     }
-    .hosting__container {
-        max-width: 90%;
+    .hosting__contents {
+        max-width: 70%;
     }
     .hosting__title {
         width: 90%;
         margin: 40px auto 10px auto;
     }
-    .mostPopular__container {
+    .mostPopular__contents {
         width: 50%;
         margin: 0 auto 0 auto;
         padding: 20px;
@@ -36,7 +36,7 @@
         width: 90%;
         margin: 20px auto 25px auto;
     }
-    #activities {
+    #activities__container {
         width: 70%;
         margin: 0 auto 20px auto;
     }
@@ -86,7 +86,7 @@
     .hosting__contents {
         max-width: 90%;
     }
-    .mostPopular__container {
+    .mostPopular__contents {
         width: auto;
     }
     #activities {
@@ -159,7 +159,7 @@
         width: 90%;
     }
     .hosting__contents {
-        max-width: 90%;
+        max-width: 100%;
         margin: 10px auto 0 auto;
     }
     .hosting__title {
@@ -170,7 +170,7 @@
         font-size: 20px;
         text-align: center;
     }
-    .mostPopular__container {
+    .mostPopular__contents {
         width: 100%;
         padding: 0;
     }
@@ -181,7 +181,7 @@
     .mostPopular__title h2 {
         font-size: 20px;
     }
-    #activities {
+    #activities__container {
         width: 100%;
         margin: 0 auto 20px auto;
     }
@@ -246,24 +246,9 @@
         font-size: 14px;
         padding: 0 5px;
     }
-    .hero__disponibilty__container {
-        width: 90%;
-    }
-     .hosting__contents {
-        max-width: 100%;
-        /* margin: 10px auto 0 auto; */
-    }
-    .mostPopular__contents {
-        width: 100%;
-        padding: 0;
-    }
     .mostPopular__card__contents {
         max-width: 300px;
         min-height: 150px;
-        margin: 0 auto 20px auto;
-    }
-    #activities {
-        width: 90%;
         margin: 0 auto 20px auto;
     }
 }
