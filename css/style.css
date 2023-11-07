@@ -524,3 +524,47 @@ html {
         gap: 10px;
     }
 } */
+/*=== setting scroll to top ===*/
+/**** Scroll top ****/
+.scrolltop {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.3rem;
+    padding-bottom: 0.1rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    color: black;
+    background: #fff;
+    border-radius: 0.4rem;
+    z-index: 100;
+    transition: 0.4s;
+    visibility: hidden;
+    text-decoration: none;
+}
+
+.scrolltop:hover {
+    color: #fff;
+    background-color: #000000b0;
+    transition: 0.4s;
+}
+
+.scrolltop__icon {
+    font-size: 50px;
+    transform: rotate(180deg);
+    line-height: 1;
+}
+
+/* Show scrolltop */
+.active {
+    visibility: visible;
+}
+/* responsive scrollup */
+@media screen and (max-width: 576px) {
+    .scrolltop__icon {
+        font-size: 40px;
+    }
+}
